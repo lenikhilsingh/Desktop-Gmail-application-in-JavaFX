@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Desktop Gmail Apllication.jnlp">
+  <information>
+    <title>Desktop Gmail Apllication</title>
+    <vendor>Patari</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\activation.jar" size="56290" download="eager" />
+    <jar href="lib\javax.mail.jar" size="653275" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2390900" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Desktop Gmail Apllication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="desktop.gmail.apllication.DesktopGmailApllication"  name="Desktop Gmail Apllication" />
+  <update check="always"/>
+</jnlp>
